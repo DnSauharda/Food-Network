@@ -2,22 +2,39 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+#top-bar{
+    padding: 15px 15px;
+    background-color: black;
+    padding-right: 20px;
+    text-align: end;
+}
+#first-h3{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding-right: 35px;
+}
+.top-button{
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(255, 166, 0), rgb(255, 72, 0));
+    padding:5px 15px;
+    border-radius: 50px;
+}
 .flexible{
     display: flex;
 }
 h1 span{
     color: rgb(255, 136, 0);
-    
 }
 h1{
     color: #505050;
     font-size: 55px;
     font-weight: bolder;
 }
-.half-width{
-    width: 50%;
-}
-.box-model{
+#measurement-box{
     padding-top: 150px;
     padding-left: 80px;
 }
@@ -25,15 +42,102 @@ h1{
     width: 85%;
     padding-top: 60px;
 }
-p{
+#top-banner-text{
     color: #5e5e5e;
     padding-bottom: 45px;
 }
+.half-width{
+    width: 50%;
+}
 .link-button{
     text-decoration: none;
-    font-weight: 700;
+    font-size: 20px;
     color: white;
     background-image: linear-gradient(to right, rgb(255, 166, 0), rgb(255, 72, 0));
-    padding:15px 25px;
+    padding:20px 30px;
     border-radius: 100px;
+}
+#top-banner{
+    padding-bottom: 80px;
+}
+h2{
+    font-size: 30px;
+    color: #5e5e5e;
+}
+#measurement-box2{
+    padding-top: 8%;
+}
+#mid-banner{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-bottom: 4%;
+    background-size: 100%;
+}
+.mid-banner-img{
+    width: 30%;
+    margin: 0 auto;
+}
+#mid-text2{
+    line-height: 25px;
+    padding-right: 25%;
+    padding-bottom: 10%;
+}
+#bottom-banner{
+    padding-bottom: 100px;
+    text-align: center;
+    margin-right: 6%;
+    margin-left: 6%;
+    
+}
+#bottom-banner-head{
+    text-align: center;
+    padding: 0 20%;
+    padding-bottom: 20px;
+}
+.bottom-boxes-2{
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 0 15px;
+    border-radius: 25px;
+    padding-bottom: 15px;
+    box-shadow: 10px 10px 200px rgb(201, 201, 201);    
+}
+.bottom-boxes-2 img{
+    width: 100%;
+    padding-top: 15px;
+}
+.bottom-boxes-2 h2{
+    color: black;
+}
+#survey-banner{
+    padding: 0 20%;
+    padding-bottom: 5%;
+    background-image: url(food-network-main/images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#survey{
+    text-align: center;
+    line-height: 2;
+    border-radius: 15px;
+    padding: 0 5%;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    box-shadow: 10px 10px 200px rgb(201, 201, 201);
+}
+#Questions{
+    text-align: left;
+}
+#foot{
+    padding-top: 5px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 5%;
+    border-bottom: 10px solid black;
+}
+footer span{
+    color: rgb(255, 136, 0) ;
+}
+footer p{
+    color: white;
 }
